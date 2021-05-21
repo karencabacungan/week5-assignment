@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Loading-logo {
+    animation: Loading-logo-spin infinite 1s linear;
+    align-items: center;
+    width: 40px;
+  }
+}
+
+@keyframes Loading-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-content {
+  height: 60px;
+  position: static;
+  background-color: rgb(199, 54, 54);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+  color: white;
+}
+
+#pokedex {
+  width: 120px;
+  margin: 10px;
+}
+
+.header-button{
+  background-color: rgb(199, 54, 54);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: position;
+  font-size: 24px;
+}
+
+.construction{
+  padding: 50px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
